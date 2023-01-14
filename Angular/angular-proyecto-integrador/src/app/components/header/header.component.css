@@ -1,0 +1,19 @@
+div{
+    background-color:rgb(112, 176, 160);
+}
+
+#Ingreso{
+    width: 15%;
+    margin-right: 5%;
+    height: 50%;
+    color: rgb(56, 54, 54);
+    cursor: pointer;
+    background: rgb(255, 255, 255);
+    font-family:sans-serif;
+    border-radius: 8px;
+    font-size:larger;
+    text-align: center;
+    box-shadow: 2px 20px 30px rgba(0,0,0,0.5);
+    border-style: none;
+}  
+

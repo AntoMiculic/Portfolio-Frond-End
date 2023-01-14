@@ -1,0 +1,24 @@
+
+#experience{
+    width: auto;
+    background-color: rgb(112, 176, 160);
+    display: flex; 
+    padding-top: 60px;
+    position: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+b{
+    font-size: x-large;
+}
+
+#logoexperiencia{
+    position: relative;
+    width: 20%;
+    margin-right: 8%;
+}
+
+#titulo{
+    font-size: xx-large;
+    color: white;
+    margin-left: 2%;
+}

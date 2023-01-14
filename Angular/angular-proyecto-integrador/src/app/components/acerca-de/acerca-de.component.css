@@ -1,0 +1,64 @@
+
+@media (min-width:576px){
+    #foto{
+        position:absolute;
+        width: 23%;
+        border-radius: 100px;
+        box-shadow: 1px 15px 25px rgba(0,0,0,0.5);
+        top:250px;
+        margin-left: 10%;
+    }
+}
+
+@media (max-width:576px){
+    #foto{
+        position:center;
+        width: 23%;
+        border-radius: 100px;
+        box-shadow: 1px 15px 25px rgba(0,0,0,0.5);
+        top:170px;
+        margin-left: 10%;
+    }
+}
+
+
+@media (min-width:1200px){
+    #nombre{
+        font-weight: bold;
+        margin-top: -600px;
+        margin-left: 40%;
+        margin-right: auto;
+        font-size: xxx-large;
+    }
+}
+
+@media (max-width:1200px){
+    #nombre{
+        font-weight: bold;
+        margin-top: -400px;
+        margin-left: 40%;
+        position: center;
+        margin-right: auto;
+        font-size: xxx-large;
+    }
+}
+
+@media (max-width:850px){
+    #nombre{
+        font-weight: bold;
+        margin-top: -300px;
+        margin-left: 40%;
+        position: center;
+        margin-right: auto;
+        font-size: xxx-large;
+    }
+}
+
+#description{
+    text-align: center;
+    margin-top: 300px;
+    color: rgb(56, 54, 54);
+}
+
+
+
