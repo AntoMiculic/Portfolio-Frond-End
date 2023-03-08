@@ -5,3 +5,12 @@ img{
 .app-social{
     width: 10%;
 }
+
+@media (max-width:1200px){
+    #imagen{
+        width: 100%;
+        position: center;
+        background-repeat:repeat;
+     
+    }
+}

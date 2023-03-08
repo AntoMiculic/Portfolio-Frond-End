@@ -1,11 +1,24 @@
 .row{
     background-color:rgb(122, 122, 225);
-    padding: 60px;
     display: flex;
-    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
+
+#circle{
+    display: flex;
+    align-content:center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction:row-reverse;
+    justify-content: center;
+}
+
 
 #titulo{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
+    flex-direction:column;
+    text-align: center;
+ 
 }

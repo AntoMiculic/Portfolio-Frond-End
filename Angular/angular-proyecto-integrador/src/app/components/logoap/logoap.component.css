@@ -2,24 +2,29 @@
     width: 150px;
 }
 
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
 
 #logoredes{
     position: fixed;
     top: 30%;
-    margin-left: 92%;
     cursor: pointer;
 }
 
 #facebook, #linkedin, #github, #whatsapp, #gmail{
-    width: 60%;
+    width: 70%;
 }
 
 
 #Ingreso{
-    width: 15%;
-    margin-right: 5%;
-    margin-bottom: 3%;
-    height: 50%;
+    width: 200%;
+    margin-left: -200%;
+    margin-bottom: 10%;
+    height: 200%;
     color: rgb(56, 54, 54);
     cursor: pointer;
     background: rgb(255, 255, 255);
@@ -29,6 +34,7 @@
     text-align: center;
     box-shadow: 2px 20px 30px rgba(0,0,0,0.5);
     border-style: none;
+    
 }  
 
 

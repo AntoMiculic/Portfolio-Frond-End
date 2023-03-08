@@ -1,5 +1,7 @@
 <div class="row" id="titulo">
-   <h1> Hard & Soft skills</h1>
+  <div class="col-lg-1"></div>
+  <h1> Hard skills</h1>
+  <div class="col-lg-11" id="circle">
    <div class="text-center col-sm-4 col-md-4 col-lg-4">
     <circle-progress
        [percent]="60"
@@ -7,7 +9,26 @@
        [title]="'Angular'"
        [showUnits]="false"
        [titleColor]="'white'"
-       [titleFontSize]="'1.7em'"
+       [titleFontSize]="'1.3em'"
+       [showSubtitle]="false"
+       [outerStrokeWidth]="16"
+       [innerStrokeWidth]="4"
+       [outerStrokeColor]="'#78C000'"
+       [innerStrokeColor]="'#C7E596'"
+       [animation]="true"
+       [animationDuration]="2000"
+       [lazy]="true"
+     ></circle-progress>
+   </div>   
+
+   <div class="text-center col-sm-4 col-md-4 col-lg-4">
+    <circle-progress
+       [percent]="60"
+       [radius]="90"
+       [title]="'Java Script'"
+       [showUnits]="false"
+       [titleColor]="'white'"
+       [titleFontSize]="'1.3em'"
        [showSubtitle]="false"
        [outerStrokeWidth]="16"
        [innerStrokeWidth]="4"
@@ -26,7 +47,7 @@
        [title]="'HTML'"
        [showUnits]="false"
        [titleColor]="'white'"
-       [titleFontSize]="'1.7em'"
+       [titleFontSize]="'1.3em'"
        [showSubtitle]="false"
        [outerStrokeWidth]="16"
        [innerStrokeWidth]="4"
@@ -42,10 +63,10 @@
     <circle-progress
        [percent]="85"
        [radius]="90"
-       [title]="'HTML'"
+       [title]="'CSS'"
        [showUnits]="false"
        [titleColor]="'white'"
-       [titleFontSize]="'1.7em'"
+       [titleFontSize]="'1.3em'"
        [showSubtitle]="false"
        [outerStrokeWidth]="16"
        [innerStrokeWidth]="4"
@@ -61,10 +82,10 @@
     <circle-progress
        [percent]="85"
        [radius]="90"
-       [title]="'HTML'"
+       [title]="'MySQL'"
        [showUnits]="false"
        [titleColor]="'white'"
-       [titleFontSize]="'1.7em'"
+       [titleFontSize]="'1.3em'"
        [showSubtitle]="false"
        [outerStrokeWidth]="16"
        [innerStrokeWidth]="4"
@@ -80,15 +101,75 @@
     <circle-progress
        [percent]="85"
        [radius]="90"
-       [title]="'HTML'"
+       [title]="'Inglés'"
        [showUnits]="false"
        [titleColor]="'white'"
-       [titleFontSize]="'1.7em'"
+       [titleFontSize]="'1.3em'"
        [showSubtitle]="false"
        [outerStrokeWidth]="16"
        [innerStrokeWidth]="4"
        [outerStrokeColor]="'#78C000'"
        [innerStrokeColor]="'#C7E596'"
+       [animation]="true"
+       [animationDuration]="2000"
+       [lazy]="true"
+     ></circle-progress>
+   </div>   
+   <div class="row" id="titulo">
+    <div class="col-lg-1"></div>
+    <h1>Soft skills</h1>
+    <div class="col-lg-11" id="circle">
+        <div class="text-center col-sm-4 col-md-4 col-lg-4">
+          <circle-progress
+             [percent]="90"
+             [radius]="90"
+             [title]="'Adaptabilidad'"
+             [showUnits]="false"
+             [titleColor]="'white'"
+             [titleFontSize]="'1.3em'"
+             [showSubtitle]="false"
+             [outerStrokeWidth]="16"
+             [innerStrokeWidth]="4"
+             [outerStrokeColor]="'rgb(218, 247, 26)'"
+             [innerStrokeColor]="'rgb(229, 246, 122)'"
+             [animation]="true"
+             [animationDuration]="2000"
+             [lazy]="true"
+           ></circle-progress>
+         </div>   
+
+   <div class="text-center col-sm-4 col-md-4 col-lg-4">
+    <circle-progress
+       [percent]="80"
+       [radius]="90"
+       [title]="'Liderazgo'"
+       [showUnits]="false"
+       [titleColor]="'white'"
+       [titleFontSize]="'1.3em'"
+       [showSubtitle]="false"
+       [outerStrokeWidth]="16"
+       [innerStrokeWidth]="4"
+       [outerStrokeColor]="'rgb(218, 247, 26)'"
+       [innerStrokeColor]="'rgb(229, 246, 122)'"
+       [animation]="true"
+       [animationDuration]="2000"
+       [lazy]="true"
+     ></circle-progress>
+   </div>   
+
+   <div class="text-center col-sm-4 col-md-4 col-lg-4">
+    <circle-progress
+       [percent]="75"
+       [radius]="90"
+       [title]="'Trabajo en equipo'"
+       [showUnits]="false"
+       [titleColor]="'white'"
+       [titleFontSize]="'1.2em'"
+       [showSubtitle]="false"
+       [outerStrokeWidth]="16"
+       [innerStrokeWidth]="4"
+       [outerStrokeColor]="'rgb(218, 247, 26)'"
+       [innerStrokeColor]="'rgb(229, 246, 122)'"
        [animation]="true"
        [animationDuration]="2000"
        [lazy]="true"
@@ -99,57 +180,57 @@
     <circle-progress
        [percent]="85"
        [radius]="90"
-       [title]="'HTML'"
+       [title]="'Proactividad'"
        [showUnits]="false"
        [titleColor]="'white'"
-       [titleFontSize]="'1.7em'"
+       [titleFontSize]="'1.3em'"
        [showSubtitle]="false"
        [outerStrokeWidth]="16"
        [innerStrokeWidth]="4"
-       [outerStrokeColor]="'#78C000'"
-       [innerStrokeColor]="'#C7E596'"
+       [outerStrokeColor]="'rgb(218, 247, 26)'"
+       [innerStrokeColor]="'rgb(229, 246, 122)'"
        [animation]="true"
        [animationDuration]="2000"
        [lazy]="true"
      ></circle-progress>
-   </div>   
-
+   </div>  
    <div class="text-center col-sm-4 col-md-4 col-lg-4">
     <circle-progress
-       [percent]="85"
+       [percent]="77"
        [radius]="90"
-       [title]="'HTML'"
+       [title]="'Toma de decisiones'"
        [showUnits]="false"
        [titleColor]="'white'"
-       [titleFontSize]="'1.7em'"
+       [titleFontSize]="'1.1em'"
        [showSubtitle]="false"
        [outerStrokeWidth]="16"
        [innerStrokeWidth]="4"
-       [outerStrokeColor]="'#78C000'"
-       [innerStrokeColor]="'#C7E596'"
+       [outerStrokeColor]="'rgb(218, 247, 26)'"
+       [innerStrokeColor]="'rgb(229, 246, 122)'"
        [animation]="true"
        [animationDuration]="2000"
        [lazy]="true"
      ></circle-progress>
-   </div>   
-
+   </div>  
    <div class="text-center col-sm-4 col-md-4 col-lg-4">
     <circle-progress
-       [percent]="85"
+       [percent]="80"
        [radius]="90"
-       [title]="'HTML'"
+       [title]="'Orientado a objetivos'"
        [showUnits]="false"
        [titleColor]="'white'"
-       [titleFontSize]="'1.7em'"
+       [titleFontSize]="'1em'"
        [showSubtitle]="false"
        [outerStrokeWidth]="16"
        [innerStrokeWidth]="4"
-       [outerStrokeColor]="'#78C000'"
-       [innerStrokeColor]="'#C7E596'"
+       [outerStrokeColor]="'rgb(218, 247, 26)'"
+       [innerStrokeColor]="'rgb(229, 246, 122)'"
        [animation]="true"
        [animationDuration]="2000"
        [lazy]="true"
      ></circle-progress>
    </div>   
+   
+
 
    
